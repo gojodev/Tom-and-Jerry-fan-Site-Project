@@ -1,0 +1,441 @@
+/* 
+Tom and jerry color scheme:
+https://www.schemecolor.com/tom-and-jerry.php 
+*/
+body {
+    background-color: #808990;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+.nav-text-style {
+    text-align: center;
+    padding: 13px;
+    text-decoration: none;
+    font-size: 2rem;
+    width: auto;
+    color: white;
+    background-color: #C08129;
+    display: inline;
+    transition: 0.2s;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+#selected,
+.nav-text-style:hover {
+    color: #D52332;
+    padding: 13px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+/* abs (all box shadow users) */
+
+#back-to-top, #file, .welcome, textarea, #submit:hover, #cancel:hover, .info-container, .general_text, #merch-table, #description, .c-chars-imgs, #video , #comp-table, select{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.welcome {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    padding: 10px;
+    background-color: #C08129;
+    color: white;
+    border: 2px solid #808990;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 2rem;
+    width: 95vw;
+    margin: auto;
+    transition: 0.2s;
+    border-radius: 40px;
+}
+
+.headings {
+    font-size: 2rem;
+    color: #D52332;
+    width: 80%;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+.sub-headings {
+    font-size: 1.8rem;
+    color: #C08129;
+    font-weight: bold;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.sub-headings:hover {
+    color: #D52332;
+}
+
+.info-container {
+    border: 10px solid black;
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    background-image: linear-gradient(white, white, grey);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.general_text {
+    background-color: #C08129;
+    color: white;
+    padding: 10px;
+    width: 90%;
+    transition: 0.2s;
+    border-radius: 30px;
+}
+
+.general_text:hover {
+    background-color: white;
+    color: #C08129;
+}
+
+table,
+div {
+    margin: auto;
+    text-align: center;
+}
+
+td {
+    width: 1vw;
+}
+
+#merch-table {
+    width: 85%;
+    border: 7px solid grey;
+    border-radius: 20px;
+}
+
+#description {
+    font-size: 1.75rem;
+    color: white;
+    background-color: #D52332;
+    border-radius: 40px;
+    transition: 0.2s;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+#description:hover {
+    border-radius: 40px;
+    color: #D52332;
+    background-color: white;
+}
+
+#link-text {
+    color: rgb(8, 118, 243);
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.2s;
+    text-align: center;
+    margin: auto;
+}
+
+#link-text:hover {
+    color: #C08129;
+    font-size: 1.5rem;
+}
+
+
+.c-chars-imgs {
+    width: 18vw;
+    height: 18vw;
+    transition: 0.2s;
+    margin: auto;
+    border-radius: 20px;
+    border: 5px solid #808990;
+}
+
+.c-chars-imgs:hover {
+    opacity: 0.7;
+    border: 10px solid #808990;
+    content: "Tom";
+}
+
+#video {
+    width: 85%;
+    height: 500px;
+    border: 10px solid #C08129;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.merch-imgs {
+    width: 15vw;
+    transition: 0.2s;
+    border-radius: 20px;
+}
+
+.merch-imgs:hover {
+    opacity: 0.5;
+}
+
+#comp-table,
+.comp-table-tr,
+.comp-table-td {
+    width: 60%;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+input {
+    font-size: 1.5rem;
+    color: white;
+    background-color: #808990;
+    border-radius: 20px;
+    transition: 0.2s;
+    width: 95%;
+}
+
+input:hover {
+    color: white;
+    background-color: #808990;
+}
+
+input:active {
+    background-color: #C08129;
+}
+
+.comp-table-td {
+    color: black;
+    transition: 0.2s;
+}
+
+.comp-table-td:hover {
+    color: white;
+    background-color: #C08129;
+}
+
+select {
+    font-size: 1.5rem;
+    border: 5px solid black;
+    border-radius: 360px;
+    color: white;
+    background-color: #C08129;
+}
+
+.checkbox-size {
+    height: 25px;
+    width: 25px;
+}
+
+textarea {
+    color: #C08129;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: left;
+    width: 55vw;
+    height: 5vw;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+#submit,
+#cancel {
+    color: white;
+    background-color: #808990;
+    border: 5px solid black;
+    width: 10vw;
+    padding: 10px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+#submit:hover,
+#cancel:hover {
+    background-color: white;
+    color: #808990;
+    border: 5px solid #808990;
+}
+
+#back-to-top,
+#file {
+    background-color: #C08129;
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: 5px solid black;
+    transition: 0.2s;
+    text-decoration: none;
+    width: auto;
+    text-align: center;
+}
+
+#back-to-top:hover,
+#file:hover {
+    color: #C08129;
+    background-color: white;
+    border: 5px solid #C08129;
+}
+
+.logo {
+    width: 11vw;
+    height: 11vh;
+    display: inline;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.nav-container {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.nav-text {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+    display: block;
+    margin: 10px;
+}
+
+.nav-text:hover {
+    color: #C08129;
+    background-color: white;
+    padding: 7px;
+}
+
+#main {
+    width: 100%;
+}
+
+#main::after {
+    display: block;
+    clear: both;
+}
+
+.info-box {
+    justify-content: space-between;
+    display: block;
+    border: 5px solid black;
+    padding: 50px;
+    width: 15vw;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.info-box:hover {
+    color: white;
+    background-color: #C08129;
+}
+
+.info-box:active {
+    color: red;
+    background-color: white;
+}
+
+#contact-info-container {
+    display: flex;
+    align-items: center;
+    height: 35vw;
+    transition: 0.2s;
+}
+
+#contact-info {
+    border-spacing: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+::-webkit-file-upload-button,
+::file-selector-button {
+    display: none;
+}
+
+
+.title-drop-down {
+    background-color: #C08129;
+    padding: 10px;
+    border-radius: 20px;
+    width: 40vw;
+    text-align: center;
+    margin: auto;
+    color: white;
+    transition: 0.2s;
+    border: 5px solid black;
+}
+
+.title-drop-down:hover {
+    color: white;
+    background-color: #D52332;
+}
+
+.title-drop-down:active {
+    color: #D52332;
+    background-color: white;
+    border: 5px solid black;
+}
+
+/*hide the inputs/checkmarks and sub-menu*/
+.faq-input, .sub-menu  {
+    display: none;
+}
+
+/*position the label*/
+label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+#vid1-sub-menu {
+    height: 50vh;
+    width: 50vw;
+    border: 10px solid #C08129;
+    border-radius: 25px;
+}
+
+.sub-menu {
+    margin: auto;
+    width: 65vw;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+/*show the sub-menu when input is checked*/
+.faq-input:checked~.sub-menu {
+    display: block;
+}
+
+.char-descrip {
+    border: 5px solid #808990;
+    border-radius: 20px;
+}

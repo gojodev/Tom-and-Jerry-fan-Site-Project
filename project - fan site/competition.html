@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom & Jerry - Competition Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel='icon' ref='images/logo.png'>
+</head>
+
+<body>
+    <div class="welcome">
+        <img src="images/logo.png" class="logo">
+        <div class="nav-container">
+            <a class="nav-text-style" href="index.html">Home</a>
+            <a class="nav-text-style" href="resources.html">Resources</a>
+            <a id="selected" href="competition.html">Competition</a>
+            <a class="nav-text-style" href="contact-us.html">Contact Us</a>
+            <a class="nav-text-style" href="faq.html">FAQ</a>
+        </div>
+    </div>
+
+    <div id="main">
+
+        <br>
+
+        <div class="info-container">
+            <div id="description">
+                We are hosting a monthly competition for fans to submit a photo or drawn picture. Please fill out the form
+                details below for a chance to win a mystery prize.
+            </div>
+
+            <br>
+
+            <form method="post" action="https://webdevcit.com/displayvalues.php">
+                <table id="comp-table">
+                    <tr class="comp-table-tr">
+                        <td class="comp-table-td">First Name:</td>
+                        <td class="comp-table-td"><input type="text" name="firstname"></td>
+                    </tr>
+                    <tr class="comp-table-tr">
+                        <td class="comp-table-td">Last Name:</td>
+                        <td class="comp-table-td"><input type="text" name="lastname"></td>
+                    </tr>
+                    <tr class="comp-table-tr">
+                        <td class="comp-table-td">Email:</td>
+                        <td class="comp-table-td"><input type="text" name="email"></td>
+                    </tr>
+                    <tr class="comp-table-tr">
+                        <td class="comp-table-td">Phone Number:</td>
+                        <td class="comp-table-td"><input type="text" name="phone number"></td>
+                    </tr>
+                    <tr class="comp-table-tr">
+                        <td class="comp-table-td">Date Of Birth(dd/mm/yyyy): </td>
+                        <td class="comp-table-td"><input type="text" name="Date of Birth"></td>
+                    </tr>
+                    <tr class="comp-table-tr">
+                        <td class="comp-table-td">Favourite Character: </td>
+                        <td class="comp-table-td"><input type="text" name="Favourite Character"></td>
+                    </tr>
+                </table>
+
+                <p>
+                    Perferred Method of Contact:
+                    <select name="Perferred contact">
+                        <option value="email">Email</option>
+                        <option value="Text Message">Text Message</option>
+                        <option value="zoom">Zoom</option>
+                        <option value="WhatsApp">WhatsApp</option>
+                    </select>
+                </p>
+
+                <p>
+                    Interested in receveing updates?
+                    <input class="checkbox-size" type="radio" name="updates" value="yes">Yes, please!
+                    <input class="checkbox-size" type="radio" name="updates" value="no" checked>No, thanks.
+                </p>
+
+                <div class="sub-headings">Please share details about your favourite episode!</div>
+                <p>
+                    <textarea></textarea>
+                </p>
+
+                <p>
+                    <input type="file" id="file" name="filename">
+                </p>
+
+                <p>
+                    <input id="submit" type="submit" value="Submit">
+                    <input id="cancel" type="cancel" value="cancel">
+                </p>
+            </form>
+        </div>
+        <br>
+
+    </div>
+
+    <br>
+
+    <div>
+        <a id="back-to-top" href="#top">Back To Top</a>
+    </div>
+
+    <br>
+</body>
+
+</html>
